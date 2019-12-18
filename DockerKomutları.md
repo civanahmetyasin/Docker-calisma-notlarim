@@ -23,6 +23,12 @@ docker run -it -v %cd%:/project chef/chefdk
 
 Yukarıda verilen örnek içerisinde `/project` çalışma dizini içerisinde var olacaktır. Bu dizin içerisine girildiğinde dockerın ilk başlatıldığı dizin içerisindeki dosyarın burada var olduğu görülecektir. 
 
+Çalışan bir konteyner içerisine mi gireceksin yada komut mu çalıştırmak istiyorsun ilacın aşağıda.
+
+```
+docker exec -it <container_id> /bin/bash
+```
+
 ---
 ### Konteynerlerin Yönetilmesi
 
