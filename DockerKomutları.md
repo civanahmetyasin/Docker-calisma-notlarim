@@ -10,4 +10,11 @@ Docker içerisinde bulunan Konteyneri buşunduğun dizin ile kullanmak için `$P
 Yukarıda verilen örnek içerisinde `/project` çalışma dizini içerisinde var olacaktır. Bu dizin içerisine girildiğinde dockerın ilk başlatıldığı dizin içerisindeki dosyarın burada var olduğu görülecektir. 
 
 
+### Konteynerlerin yönetilmesi
+
+Tüm konteynerlerin kapatılması için kullanılacak komut.
+
+`docker rm $(docker ps -a)`
+
+
 
