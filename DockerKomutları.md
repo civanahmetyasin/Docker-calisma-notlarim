@@ -62,3 +62,6 @@ volumes:
   db:
 
 ```
+Bu komutlar docker içerisinde hızlıca wordpress ve mysql arasında gerekli parametreleri ayarlayacak çalıştırmaya yarar.
+
+
