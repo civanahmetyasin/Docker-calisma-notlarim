@@ -2,6 +2,13 @@
 ----
 ### Konteyner Yönetimi
 
+Docker üzerinden bulunan `image` ler çalıştırmak isteniyorsa en güzel komut aşağıda.
+
+```
+docker run -rm -i - t ubuntu
+```
+`-rm` işler tamamlanıp konteynerden çıldığı zaman konteyneri yok eder. 
+
 Docker içerisinde bulunan Konteyneri buşunduğun dizin ile kullanmak için `$PWD` anahtarı ile kullanılır.
 
 
