@@ -10,11 +10,15 @@ docker run -rm -i - t ubuntu
 `-rm` işler tamamlanıp konteynerden çıldığı zaman konteyneri yok eder. 
 
 Docker içerisinde bulunan Konteyneri buşunduğun dizin ile kullanmak için `$PWD` anahtarı ile kullanılır.
-
+Eğer windows üzerinden çalışan bir beyaz yakalı isen `cmd` olanı kullan.
 
 Örneğin;
 ```
 docker run -it -v $PWD:/project chef/chefdk
+```
+
+```
+docker run -it -v cmd:/project chef/chefdk
 ```
 
 Yukarıda verilen örnek içerisinde `/project` çalışma dizini içerisinde var olacaktır. Bu dizin içerisine girildiğinde dockerın ilk başlatıldığı dizin içerisindeki dosyarın burada var olduğu görülecektir. 
