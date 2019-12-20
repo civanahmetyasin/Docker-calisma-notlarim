@@ -47,7 +47,7 @@ sudo apt install docker-compose
 ```
 docker-compose -f enSevdigimDosyam.ymp
 ```
-Şeklinde Olabilir. Örnek .ymp aşağıda. 
+Şeklinde Olabilir. enSevdigimDosyam.ymp aşağıda. 
 
 ```
 version: '3.1'
