@@ -16,7 +16,7 @@ Eğer windows üzerinden çalışan bir beyaz yakalı isen `cmd` olanı kullan.
 ```
 docker run -it -v $PWD:/project chef/chefdk
 ```
-
+**Windows İçin**
 ```
 docker run -it -v %cd%:/project chef/chefdk
 ```
