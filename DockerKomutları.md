@@ -45,9 +45,9 @@ sudo apt install docker-compose
 ```
 `docker-compose` yüklendikten sonra `.yml` uzantılı dosyayı `docker-compose` ile çalıştıracağız. Bunun için hemen aşağıya bak!
 ```
-docker-compose -f enSevdigimDosyam.ymp
+docker-compose -f enSevdigimDosyam.yml
 ```
-Şeklinde Olabilir. enSevdigimDosyam.ymp aşağıda. 
+Şeklinde Olabilir. enSevdigimDosyam.yml aşağıda. 
 
 ```
 version: '3.1'
